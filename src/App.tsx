@@ -38,11 +38,11 @@ const Navbar = () => {
         {isHomePage && (
           <div className="flex-1 flex justify-center">
             <div className="hidden md:flex space-x-8">
-              <Link to="/" className={isDarkMode ? "text-primary-400 font-medium hover:text-primary-300 transition-colors" : "text-primary-700 font-medium hover:text-primary-500 transition-colors"} onClick={(e) => {
+              <Link to="/" className={isDarkMode ? "text-primary-400 font-medium hover:text-primary-300 transition-colors" : "text-primary-700 font-medium hover:text-primary-500 transition-colors"} onClick={(e: React.MouseEvent) => {
                 e.preventDefault();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}>关于</Link>
-              <Link to="/" className={isDarkMode ? "text-gray-300 hover:text-primary-400 transition-colors" : "text-gray-600 hover:text-primary-500 transition-colors"} onClick={(e) => {
+              <Link to="/" className={isDarkMode ? "text-gray-300 hover:text-primary-400 transition-colors" : "text-gray-600 hover:text-primary-500 transition-colors"} onClick={(e: React.MouseEvent) => {
                 e.preventDefault();
                 const techStackSection = document.getElementById('tech-stack-section');
                 if (techStackSection) {
@@ -52,7 +52,7 @@ const Navbar = () => {
                   window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
                 }
               }}>技术栈</Link>
-              <Link to="/" className={isDarkMode ? "text-gray-300 hover:text-primary-400 transition-colors" : "text-gray-600 hover:text-primary-500 transition-colors"} onClick={(e) => {
+              <Link to="/" className={isDarkMode ? "text-gray-300 hover:text-primary-400 transition-colors" : "text-gray-600 hover:text-primary-500 transition-colors"} onClick={(e: React.MouseEvent) => {
                 e.preventDefault();
                 const projectsSection = document.getElementById('projects-section');
                 if (projectsSection) {
@@ -62,7 +62,7 @@ const Navbar = () => {
                   window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
                 }
               }}>项目</Link>
-              <Link to="/" className={isDarkMode ? "text-gray-300 hover:text-primary-400 transition-colors" : "text-gray-600 hover:text-primary-500 transition-colors"} onClick={(e) => {
+              <Link to="/" className={isDarkMode ? "text-gray-300 hover:text-primary-400 transition-colors" : "text-gray-600 hover:text-primary-500 transition-colors"} onClick={(e: React.MouseEvent) => {
                 e.preventDefault();
                 const contactSection = document.getElementById('contact-section');
                 if (contactSection) {
