@@ -184,7 +184,7 @@ const ReactPage = () => {
   }, []);
 
   return (
-    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/src/assets/images/bg2.jpg')" : "url('/src/assets/images/bg1.jpg')" }}>
+    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/bg2.jpg')" : "url('/bg1.jpg')" }}>
       {/* 导航栏 */}
       <Navbar />
 
@@ -658,7 +658,7 @@ const VuePage = () => {
   `;
 
   return (
-    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/src/assets/images/bg2.jpg')" : "url('/src/assets/images/bg1.jpg')" }}>
+    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/bg2.jpg')" : "url('/bg1.jpg')" }}>
       {/* 导航栏 */}
       <Navbar />
 
@@ -1063,7 +1063,7 @@ const NodePage = () => {
   }, []);
 
   return (
-    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/src/assets/images/bg2.jpg')" : "url('/src/assets/images/bg1.jpg')" }}>
+    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/bg2.jpg')" : "url('/bg1.jpg')" }}>
       {/* 导航栏 */}
       <Navbar />
 
@@ -1780,7 +1780,7 @@ const TypeScriptPage = () => {
   }, []);
 
   return (
-    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/src/assets/images/bg2.jpg')" : "url('/src/assets/images/bg1.jpg')" }}>
+    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/bg2.jpg')" : "url('/bg1.jpg')" }}>
       {/* 导航栏 */}
       <Navbar />
 
@@ -2252,7 +2252,7 @@ const JavaScriptPage = () => {
   }, []);
 
   return (
-    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/src/assets/images/bg2.jpg')" : "url('/src/assets/images/bg1.jpg')" }}>
+    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/bg2.jpg')" : "url('/bg1.jpg')" }}>
       {/* 导航栏 */}
       <Navbar />
 
@@ -3494,7 +3494,7 @@ const HomePage = () => {
   }, [isDarkMode]);
 
   return (
-    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/src/assets/images/bg2.jpg')" : "url('/src/assets/images/bg1.jpg')" }}>
+    <div className={`min-h-screen bg-contain bg-top bg-no-repeat font-sans ${isDarkMode ? 'bg-black text-white' : 'bg-[#DEE2E1] text-gray-800'}`} style={{ backgroundImage: isDarkMode ? "url('/bg2.jpg')" : "url('/bg1.jpg')" }}>
       {/* 导航栏 */}
       <Navbar />
 
